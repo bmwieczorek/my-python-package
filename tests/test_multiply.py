@@ -1,6 +1,6 @@
 import unittest
 
-from my_python_package.extra import my_multiply
+from my_package.extra import my_multiply
 
 
 class MyTestCase(unittest.TestCase):

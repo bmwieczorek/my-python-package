@@ -5,7 +5,7 @@ DESCRIPTION = 'My Python package description'
 LONG_DESCRIPTION = 'My Python package long description'
 
 setup(
-    name="my-python-package",
+    name="my-package",
     version=VERSION,
     author="Bartek",
     author_email="<youremail@email.com>",
@@ -14,7 +14,7 @@ setup(
     url="https://example.com",
     packages=find_packages(),
     install_requires=[],  # add any additional packages
-    keywords=['python', 'bartek', 'my_python_package'],
+    keywords=['python', 'bartek', 'my-package'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

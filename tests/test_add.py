@@ -1,6 +1,6 @@
 import unittest
 
-from my_python_package import my_add
+from my_package import my_add
 
 
 class MyTestCase(unittest.TestCase):

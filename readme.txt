@@ -1,1 +1,4 @@
-My package in python
+My package in python:
+
+make test
+make install
