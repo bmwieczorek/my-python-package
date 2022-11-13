@@ -1,0 +1,16 @@
+# building
+target
+
+# Eclipse
+.project
+.classpath
+.settings
+
+# Except IDEA run configurations
+*.iml
+.idea/*
+!/.idea/runConfigurations
+
+# python
+.pytest_cache
+__pycache__
