@@ -20,7 +20,7 @@ test:
 package: uninstall clean test
 	mkdir -p target
 	cp -r my_package setup.py readme.txt target/
-	cd target && python3 setup.py sdist bdist_wheel
+	cd target && python3 -m pip install --upgrade pip setuptools wheel && python3 setup.py sdist bdist_wheel
 
 install: package
 	$(eval WHL_FILE = $(shell ls target/dist/*.whl))
