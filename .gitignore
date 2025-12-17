@@ -14,3 +14,4 @@ target
 # python
 .pytest_cache
 __pycache__
+.python-version
