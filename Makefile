@@ -1,9 +1,9 @@
 # for pyenv
-export PATH := ~/.pyenv/versions/3.8.14/envs/composer-2.4.3-airflow-2.5.3-python-3.8.14-jupyter/bin:"$(PATH)"
+export PATH := ~/.pyenv/versions/3.8.14/envs/composer-2.4.3-airflow-2.5.3-python-3.8.20-jupyter/bin:"$(PATH)"
 SHELL := env PATH=$(PATH) /bin/bash
 
-# generate ./.python-version with composer-2.4.3-airflow-2.5.3-python-3.8.14-jupyter
-# pyenv local composer-2.4.3-airflow-2.5.3-python-3.8.14-jupyter
+# generate ./.python-version with composer-2.4.3-airflow-2.5.3-python-3.8.20-jupyter
+# pyenv local composer-2.4.3-airflow-2.5.3-python-3.8.20-jupyter
 
 inf:
 	python3 -V
